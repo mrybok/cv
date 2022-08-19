@@ -4,6 +4,10 @@ body {
   color: #f8f9fa;
 }
 
+hr {
+  border-color: #f8f9fa;
+}
+
 h1 {
   color: #A1D2FA;
   margin: 0px;
@@ -185,7 +189,7 @@ button i {
   }
 
   .org-title p {
-    text-align: center;
+    text-align: center!important;
   }
 }
 
