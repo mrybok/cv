@@ -157,6 +157,7 @@ button i {
   max-width: 100%;
   min-width: 100%;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .contact {
@@ -192,6 +193,10 @@ button i {
   .section-inner {
     max-width: 740px;
     padding: 30px 16px 16px 16px;
+  }
+
+  p {
+    text-align: start!important;
   }
 
   .profile .section-inner, .interests .section-inner, .contact .section-inner {
