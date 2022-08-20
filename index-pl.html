@@ -6,13 +6,13 @@
     <title>Marcin Rybok</title>
     <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="static/icons/person-circle.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
 
     <nav class="navbar navbar-expand-lg content-1">
       <div class="container-fluid px-4">
-        
         <div class="justify-content-start align-tems-center ps-0 ps-lg-2">
           <h1 class="navbar-brand p-0 m-0">
             <strong>Marcin Rybok</strong>
@@ -27,32 +27,32 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="#scrollspyHeading1">
-                Edukacja
+                Education
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#scrollspyHeading2">
-                Umiejętności
+                Skills
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#scrollspyHeading3">
-                Doświadczenie
+                Experience
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#scrollspyHeading4">
-                Języki
+                Languages
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#scrollspyHeading5">
-                Projekty
+                Projects
               </a>
             </li>
             <li id="langBtn" class="nav-item">
-              <a class="nav-link" href="/index-en.html">
-                <img src="static/images/en_flag.png" alt="">
+              <a class="nav-link" href="cv/index-pl.html">
+                <img src="static/images/pl_flag.png" alt="">
               </a>
             </li>
           </ul>
@@ -63,35 +63,37 @@
 
     <div id="body" class="row m-0">
       
-      <div id="sideBar" class="col p-3 d-none d-lg-block content-2">
+      <div id="sideBar" class="col content-2">
         <div class="card">
-          <div class="circle-wrapper">
-            <div class="circle">
+          <div class="row justify-content-center">
+            <div class="circle-wrapper">
+              <div class="circle">
+              </div>
+              <div class="mask-1"></div>
+              <img class="card-img-top rounded-circle" src="static/images/ja_6.jpg" class="" alt="">
             </div>
-            <div class="mask-1"></div>
-            <div class="mask-2"></div>
-            <div class="mask-3"></div>
-            <img class="card-img-top rounded-circle" src="static/images/ja_5.jpg" class="" alt="">
           </div>
   
-          <hr>
+            <hr>
   
-          <div class="card-body p-0">
-            <ul class="list-group list-group-flush">
-              <h5 class="list-group-item text-center">Zainteresowania</h5>
-              <li class="list-group-item">Data Science</li>
-              <li class="list-group-item">Artificial Inteligence</li>
-              <li class="list-group-item">Machine Learning</li>
-              <li class="list-group-item">Deep Learning</li>
-              <li class="list-group-item">Natural Language Processing</li>
-              <li class="list-group-item">Software Engineering</li>
-            </ul>
-          </div>
+            <div class="card-body p-0">
+              <ul class="list-group list-group-flush">
+                <h5 class="list-group-item text-center m-0 pt-0">Interests</h5>
+                <li class="list-group-item">Data Science</li>
+                <li class="list-group-item">Artificial Inteligence</li>
+                <li class="list-group-item">Machine Learning</li>
+                <li class="list-group-item">Deep Learning</li>
+                <li class="list-group-item">Natural Language Processing</li>
+                <li class="list-group-item pb-0">Software Engineering</li>
+              </ul>
+            </div>
   
           <div class="card-footer p-0">
             <hr>
-            <h5 class="text-center px-3">Kontakt</h5>
-            <a class="email-link px-3" href="#" data-bs-toggle="tooltip" data-bs-title="Kliknij żeby skopiować" data-bs-trigger="hover click" data-bs-placement="right">marcinrybok@protonmail.com</a>
+            <h5 class="text-center px-3 pt-0 m-0">Contact</h5>
+            <div class="row justify-content-center m-0">
+              <a class="email-link text-center" href="#" data-bs-toggle="tooltip" data-bs-title="Click to copy" data-bs-trigger="hover click" data-bs-placement="right">marcinrybok@protonmail.com</a>
+            </div>
           </div>
   
         </div>
@@ -99,40 +101,62 @@
 
       <div id="content" class="col p-0" data-bs-spy="scroll" data-bs-target="#collapseNav" data-bs-smooth-scroll="true" tabindex="0">
 
-        <div class="p-4 content-2 d-flex justify-content-center d-block d-lg-none">
-          <div class="circle-wrapper">
-            <div class="circle">
+        <div class="section content-2 profile justify-content-center d-flex">
+          <div class="section-inner justify-content-center d-flex">
+            <div class="circle-wrapper">
+              <div class="circle">
+              </div>
+              <div class="mask-1"></div>
+              <img class="rounded-circle" src="static/images/ja_6.jpg" class="" alt="">
             </div>
-            <div class="mask-1"></div>
-            <div class="mask-2"></div>
-            <div class="mask-3"></div>
-            <img id="profile" class="rounded-circle" src="static/images/ja_5.jpg" class="" alt="">
           </div>
         </div>
 
-        <div class="p-4 content-3 d-block d-lg-none">
-
-          <h1>
-            Zainteresowania
-          </h1>
-
-          <hr>
-
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item px-0">Data Science</li>
-            <li class="list-group-item px-0">Artificial Inteligence</li>
-            <li class="list-group-item px-0">Machine Learning</li>
-            <li class="list-group-item px-0">Deep Learning</li>
-            <li class="list-group-item px-0">Natural Language Processing</li>
-            <li class="list-group-item px-0">Software Engineering</li>
-          </ul>
-
+        <div class="section about-me justify-content-center d-flex align-items-center">
+          <div id="scrollspyHeading0" class="section-inner">
+            <h1>
+              About me
+            </h1>
+  
+            <hr>
+  
+            <p>
+              Hi, I am Marcin, a 24-year-old from Katowice, Poland. 
+              From a young age, I was a math nerd. 
+              However, I was always frustrated by the theory-oriented nature of my beloved field. 
+              I wanted to find out what maths can teach me about the real world. 
+              As a result, I have ended up majoring in Informatics and specializing in Machine Learning (ML). 
+              My academic career taught me how to channel my math skills to derive valuable insights through data analysis. 
+              Right now, I cannot wait to see how can I use my data science toolkit to benefit your company.
+            </p>
+          </div>
         </div>
 
-        <div class="p-4 content-4 education">
-          <div id="scrollspyHeading1">
+        <div class="section content-3 interests justify-content-center d-flex">
+          <div class="section-inner">
+
             <h1>
-              Edukacja
+              Interests
+            </h1>
+  
+            <hr>
+  
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item px-0">Data Science</li>
+              <li class="list-group-item px-0">Artificial Inteligence</li>
+              <li class="list-group-item px-0">Machine Learning</li>
+              <li class="list-group-item px-0">Deep Learning</li>
+              <li class="list-group-item px-0">Natural Language Processing</li>
+              <li class="list-group-item px-0">Software Engineering</li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="section content-4 education justify-content-center d-flex">
+          <div id="scrollspyHeading1" class="section-inner">
+            <h1>
+              Education
             </h1>
 
             <hr>
@@ -149,18 +173,16 @@
                   <h6 class="card-subtitle">
                     The University of Edinburgh
                   </h6>
-                  <h6 class="card-subtitle pt-1">
+                  <p class="card-subtitle">
                     2022
-                  </h6>
+                  </p>
                 </div>
               </div>
             </div>
 
             <div class="desc-section">
               <p>
-                I have completed a five-year Integrated Master’s program worth 300 ECTS credits at the University of Edinburgh.
-              </p>
-              <p>
+                I have completed a five-year Integrated Master's program worth 300 ECTS credits at the University of Edinburgh.
                 My alma mater is among the top 15 world universities at the time of my graduation, according to the <a href="https://www.topuniversities.com/university-rankings/world-university-rankings/2023">QS ranking</a>.
               </p>
             </div>
@@ -179,219 +201,86 @@
                   <h6 class="card-subtitle">
                     Prywatne Liceum Ogólnokształcące im. Melchiora Wańkowicza
                   </h6>
-                  <h6 class="card-subtitle pt-1">
+                  <p class="card-subtitle">
                     2017
-                  </h6>
+                  </p>
                 </div>
               </div>
+            </div>
+
+            <div class="desc-section">
+              <p>
+                In high school, I challenged myself by rejecting the standard Polish Matura and joining the alternative IB programme. 
+                The choice was difficult as I am a Polish native, while IB offers teaching fully in English. 
+                In the end, I completed the programme with a maximum possible grade of 7 in 4 of my subjects (Mathematics, Physics, Business and Management, Polish Literature), and grade 6 in the remaining 2 (English and Chemistry).
+              </p>
+              <p></p>
+              <p>
+                In my prior education, I have always been a high performer. 
+                In my secondary school, I was a laureate of three distinct Regional Subject Olympiads in the Silesian Voivodship, namely in Mathematics, Physics and History.
+              </p>
             </div>
   
           </div>
         </div>
 
-        <div class="p-4 content-3">
-          <div id="scrollspyHeading2">
-            <h1>
-              Umiejętności
-            </h1>
+        <div id="scrollspyHeading2">
 
-            <hr>
-
-            <h2>
-              Data Science
-            </h2>
-
-            <div class="container text-center my-3">
-              <div class="row mx-auto my-auto justify-content-center">
-                <div id="dataScienceCarousel" class="carousel">
-
-                  <div class="carousel-inner" role="listbox">
-                  </div>
-
-                  <button id="dataSciencePrev" class="carousel-control-prev bg-transparent w-aut" >
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  </button>
-
-                  <button id="dataScienceNext" class="carousel-control-next bg-transparent w-aut">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  </button>
-
-                </div>
-              </div>
-            </div>
-
-            <hr>
-
-            <h2>
-              Deep Learning
-            </h2>
-
-            <div class="container my-3">
-              <div class="row mx-auto my-auto justify-content-center">
-                <div id="deepLearningCarousel" class="carousel">
-
-                  <div class="carousel-inner" role="listbox">
-                  </div>
-
-                  <button id="deepLearningPrev" class="carousel-control-prev bg-transparent w-aut" >
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  </button>
-
-                  <button id="deepLearningNext" class="carousel-control-next bg-transparent w-aut">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  </button>
-
-                </div>
-              </div>
-            </div>
-
-            <hr>
-
-            <h2>
-              Web Development
-            </h2>
-
-            <div class="container my-3">
-              <div class="row mx-auto my-auto justify-content-center">
-                <div id="webDevCarousel" class="carousel">
-
-                  <div class="carousel-inner" role="listbox">
-                  </div>
-
-                  <button id="webDevPrev" class="carousel-control-prev bg-transparent w-aut">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  </button>
-
-                  <button id="webDevNext" class="carousel-control-next bg-transparent w-aut">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  </button>
-
-                </div>
-              </div>
-            </div>
-
-            <hr>
-
-            <div class="collapse" id="collapseSkills">
-
-              <h2>
-                Bazy Danych
-              </h2>
-
-              <div class="container my-3">
-                <div class="row mx-auto my-auto justify-content-center">
+          <div class="section content-3 skills justify-content-center d-flex">
+            <div class="section-inner" style="padding-top: 30px;">
+              <h1>
+                Skills
+              </h1>
   
-                  <div class="col tech">
-                    <div class="d-flex justify-content-center">
-                      <div>
-                        <div class="d-flex justify-content-center mb-1">
-                          <img src="static/images/tech/mongodb_logo.png" alt="">
-                        </div>
-                        <div class="d-flex justify-content-center">
-                          <h6>MongoDB</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col tech">
-                    <div class="d-flex justify-content-center">
-                      <div>
-                        <div class="d-flex justify-content-center mb-1">
-                          <img src="static/images/tech/postgresql_logo.png" alt="">
-                        </div>
-                        <div class="d-flex justify-content-center">
-                          <h6>PostgreSQL</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col tech">
-                    <div class="d-flex justify-content-center">
-                      <div>
-                        <div class="d-flex justify-content-center mb-1">
-                          <img src="static/images/tech/hibernate_logo.png" alt="">
-                        </div>
-                        <div class="d-flex justify-content-center">
-                          <h6>Hibernate</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-  
-                </div>
-              </div>
-
               <hr>
-
-              <h2>
-                Virtualizacja
-              </h2>
-
-              <div class="container my-3">
-                <div class="row mx-auto my-auto justify-content-center">
   
-                  <div class="col tech">
-                    <div class="d-flex justify-content-center">
-                      <div>
-                        <div class="d-flex justify-content-center mb-1">
-                          <img src="static/images/tech/vagrant_logo.png" alt="">
-                        </div>
-                        <div class="d-flex justify-content-center">
-                          <h6>Vagrant</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col tech">
-                    <div class="d-flex justify-content-center">
-                      <div>
-                        <div class="d-flex justify-content-center mb-1">
-                          <img src="static/images/tech/virtualbox_logo.png" alt="">
-                        </div>
-                        <div class="d-flex justify-content-center">
-                          <h6>VirtualBox</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-  
-                </div>
-              </div>
-
-              <hr>
-
               <h2>
-                Inne
+                Data Science
               </h2>
+            </div>
+          </div>
 
-              <div class="container my-3">
+          <div class="section content-3 skills justify-content-center d-flex">
+            <div class="section-inner">
+              <div class="container text-center my-3">
                 <div class="row mx-auto my-auto justify-content-center">
-                  <div id="otherCarousel" class="carousel">
-
+                  <div id="dataScienceCarousel" class="carousel">
+  
                     <div class="carousel-inner" role="listbox">
                     </div>
   
-                    <button id="otherPrev" class="carousel-control-prev bg-transparent w-aut">
+                    <button id="dataSciencePrev" class="carousel-control-prev bg-transparent w-aut" >
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     </button>
   
-                    <button id="otherNext" class="carousel-control-next bg-transparent w-aut">
+                    <button id="dataScienceNext" class="carousel-control-next bg-transparent w-aut">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     </button>
   
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
 
+          <div class="section content-3 skills justify-content-center d-flex">
+            <div class="section-inner">
+              <p>
+                Python with its scientific programming toolkit is my favourite programming language. 
+                I use scientific Python whether it concerns directly extracting statistical summaries from data, or pre-processing it for downstream machine learning tasks. 
+                I have worked with Computer Vision, Natural Language and Time-Series datasets. 
+                On occasions, my friends asked me for help when their projects involved data analytic tasks in fields as distinct as Physics and Linguistics. 
+                Generally, you name a field with data, and I got your results. 
+                Concerning technical quirks, I naturally look for ways to vectorize Python code to get performance speed-ups. 
+                In the field of data science, I especially love data visualisation techniques.
+              </p>
+  
               <hr>
 
               <h2>
-                Technologie Blockchain
+                Deep Learning
               </h2>
-
+  
               <div class="container my-3">
                 <div class="row mx-auto my-auto justify-content-center">
   
@@ -399,10 +288,10 @@
                     <div class="d-flex justify-content-center">
                       <div>
                         <div class="d-flex justify-content-center mb-1">
-                          <img src="static/images/tech/ethereum_logo.png" alt="">
+                          <img src="static/images/tech/pytorch_logo.png" alt="">
                         </div>
                         <div class="d-flex justify-content-center">
-                          <h6>Ethereum</h6>
+                          <h6>PyTorch</h6>
                         </div>
                       </div>
                     </div>
@@ -412,48 +301,464 @@
                     <div class="d-flex justify-content-center">
                       <div>
                         <div class="d-flex justify-content-center mb-1">
-                          <img src="static/images/tech/solidity_logo.png" alt="">
+                          <img src="static/images/tech/tensorboard_logo.png" alt="">
                         </div>
                         <div class="d-flex justify-content-center">
-                          <h6>Solidity</h6>
+                          <h6>TensorBoard</h6>
                         </div>
                       </div>
                     </div>
                   </div>
-
-                  <div class="col tech">
-                    <div class="d-flex justify-content-center">
-                      <div>
-                        <div class="d-flex justify-content-center mb-1">
-                          <img src="static/images/tech/metamask_logo.png" alt="">
-                        </div>
-                        <div class="d-flex justify-content-center">
-                          <h6>MetaMask</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
+  
                 </div>
               </div>
 
+              <p>
+                In my studies, using NumPy, I have implemented from scratch (forward and back propagation) most canonical components of modern neural networks from simple multi-layer perceptrons to complex convolutional layers, recurrent networks, batch normalization, residual connections, etc. 
+                Due to the above first principles work, I have strong background concerning the deep learning concepts and the inner workings of higher-level libraries such as PyTorch.
+              </p>
+              <p></p>
+              <p>
+                Reading Andrej Karpathy's
+                <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/">
+                  The Unreasonable Effectiveness of Recurrent Neural Networks
+                </a>
+                blog post, inspired me to write my own modern PyTorch version of the post's old Torch code base. 
+                In the process, I have learned PyTorch and have trained character-level RNN language models that
+                <i>
+                  "hallucinated"
+                </i>
+                prose of seminal Polish writers such as Henryk Sienkiewicz. 
+                Of course, pre-processing the authors' raw texts, so they could be fed as input to the NNs constituted half if not more of the work.
+              </p>
+              <p></p>
+              <p>
+                Later I polished my PyTorch skills during university courses. 
+                I have used PyTorch in Computer Vision (CV), Reinforcement Learning (RL) and Natural Language Processing (NLP). 
+                In NLP I have also worked with <b>spaCy</b> and the <b>Transformers</b> library of <b>Hugging Face</b>. 
+                My most ambitious deep learning project to date is titled: <a href="#scrollspyHeading5"><i>Is RGB all you need? The usefulness of depth in semantic segmentation</i></a>. 
+                Please check its devoted section for more details.
+              </p>
+
               <hr>
 
+              <h2>
+                Web Development
+              </h2>
+
             </div>
 
-            <div class="d-grid gap-2 justify-content-center">
-              <button id="expandSkillsBtn" class="bg-transparent w-aut" data-bs-toggle="tooltip" data-bs-title="Show More" data-bs-trigger="hover" data-bs-placement="right">
-                <span class="carousel-control-prev-icon up" aria-hidden="true"></span>
-              </button>
-            </div>
-  
           </div>
+
+          <div class="section content-3 skills justify-content-center d-flex">
+            <div class="section-inner">
+              <div class="container my-3">
+                <div class="row mx-auto my-auto justify-content-center">
+                  <div id="webDevCarousel" class="carousel">
+  
+                    <div class="carousel-inner" role="listbox">
+                    </div>
+  
+                    <button id="webDevPrev" class="carousel-control-prev bg-transparent w-aut">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+  
+                    <button id="webDevNext" class="carousel-control-next bg-transparent w-aut">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section content-3 skills justify-content-center d-flex">
+            <div class="section-inner">
+              <p>
+                JavaScript is my second language of choice after Python. 
+                I have experience in full-stack development. 
+                In front-end, I have worked with vanilla JavaScript enhanced by the DataTables library at Almar IT. 
+                On the other hand, at Konsept I have used React. 
+                The Python Flask library is my go-to choice for the server side when building web apps. 
+                Yet, at Almar IT, I have also used the Java Spring Boot framework in the development of a CRM based on the MVC architecture.
+              </p>
+  
+              <hr>
+            </div>
+          </div>
+
+          <div class="collapse" id="collapseSkills">
+            <div class="section content-3 skills justify-content-center d-flex">
+              <div class="section-inner">
+                <h2>
+                  Natural Language Processing
+                </h2>
+  
+                <div class="container my-3">
+                  <div class="row mx-auto my-auto justify-content-center">
+    
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/nltk_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>NLTK</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/spacy_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>spaCy</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/huggingface_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>Transformers</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+  
+                <p>
+                  In the field of Natural Language Processing (NLP), my university has offered me multiple courses such as <a href="http://www.drps.ed.ac.uk/18-19/dpt/cxinfr08008.htm">Processing Formal and Natural Languages</a>, <a href="http://www.drps.ed.ac.uk/20-21/dpt/cxinfr11145.htm">Text Technologies for Data Science</a>, <a href="http://www.drps.ed.ac.uk/21-22/dpt/cxinfr11125.htm">Accelerated Natural Language Processing</a>, <a href="http://www.drps.ed.ac.uk/21-22/dpt/cxinfr11157.htm">Natural Language Understanding, Generation, and Machine Translation (NLU+)</a>. 
+                  As a result, I have extensively studied NLP basics and specialised methods devised to solve the discipline's subproblems. 
+                  Especially, in the NLU+ course, we have explored the state-of-the-art approaches to NLP, such as attentional models, transformers, BERT or even the brand new pre-trained model prompting paradigm. 
+                  In practical terms, I have utilised PyTorch with the modern spaCy and Hugging Face's Transformers libraries. 
+                  In the end, it is worth mentioning that I had the privilege to learn from the world's top researchers in the field. 
+                  For example, professor Alexandra Birch, one of the inventors of the byte-pair encoding (BPE) method used virtually everywhere in NLP for text segmentation, is also an NLU+ course lecturer.
+                </p>
+
+                <hr>
+
+                <h2>
+                  Databases
+                </h2>
+  
+                <div class="container my-3">
+                  <div class="row mx-auto my-auto justify-content-center">
+    
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/mongodb_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>MongoDB</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/postgresql_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>PostgreSQL</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+  
+                <p>
+                  MongoDB is my first database of choice. 
+                  I have designed schemas, built and optimized indexes, and created queries for it. 
+                  I have used MongoDB during my work at Konsept. 
+                  Also as part of the
+                  <a href="https://www.inf.ed.ac.uk/teaching/courses/tts/">
+                    Text Technologies for Data Science
+                  </a>
+                  course at my university, I was involved in the Lyrix project, where we created a search engine for song lyrics. 
+                  The project involved information retrieval from a collection of over 2 million songs and used MongoDB in the system back-end.
+                </p>
+                <p></p>
+                <p>
+                  I am familiar with traditional relational databases. 
+                  Both as part of my university courses and my work at Almar IT, I had to design and instantiate table schemas, and write 
+                  <b>
+                    SQL
+                  </b>
+                  queries.
+                </p>
+
+                <hr>
+
+                <h2>
+                  Version Control
+                </h2>
+  
+                <div class="container my-3">
+                  <div class="row mx-auto my-auto justify-content-center">
+
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/git_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>Git</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/github_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>GitHub</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+
+                <p>
+                  I have used Git as VCS in my own and university group projects.
+                </p>
+
+                <hr>
+
+                <h2>
+                  UNIX
+                </h2>
+  
+                <div class="container my-3">
+                  <div class="row mx-auto my-auto justify-content-center">
+    
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/bash_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>Bash</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/linux_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>Linux</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+
+                <p>
+                  The computing infrastructure at my university was based on Linux machines, so I had to learn UNIX and GNU Bash script. 
+                  I use Windows on my personal machines.
+                </p>
+
+                <hr>
+
+                <h2>
+                  Virtualization
+                </h2>
+  
+                <div class="container my-3">
+                  <div class="row mx-auto my-auto justify-content-center">
+    
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/vagrant_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>Vagrant</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/virtualbox_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>VirtualBox</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+
+                <p>
+                  When I must use a library not supported on Windows, I use Vagrant with VirtualBox to set up a VM with appropriate dependencies. 
+                  In such scenarios involving Python, I like to set up a remote Jupyter Notebook server on the VM, but interact with it within the browser on my host machine.
+                </p>
+
+                <hr>
+
+                <h2>
+                  Other
+                </h2>
+
+              </div>
+            </div>
+
+            <div class="section content-3 skills justify-content-center d-flex">
+              <div class="section-inner">
+                <div class="container my-3">
+                  <div class="row mx-auto my-auto justify-content-center">
+                    <div id="otherCarousel" class="carousel">
+  
+                      <div class="carousel-inner" role="listbox">
+                      </div>
+    
+                      <button id="otherPrev" class="carousel-control-prev bg-transparent w-aut">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      </button>
+    
+                      <button id="otherNext" class="carousel-control-next bg-transparent w-aut">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      </button>
+    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section content-3 skills justify-content-center d-flex">
+              <div class="section-inner">
+                <p>
+                  The above list includes the remaining programming languages I have used in my university projects.
+                </p>
+                <p></p>
+                <p>
+                  As a side note, Haskell was the first language I learned, and to this day I have a good grasp of the 
+                  <b>
+                    functional programming
+                  </b>
+                  paradigm. 
+                  I have also attended programming tutorials with professor Philip Wadler, one of the main creators of the Haskell language.
+                </p>
+
+                <hr>
+
+                <h2>
+                  Blockchain Technologies
+                </h2>
+  
+                <div class="container my-3">
+                  <div class="row mx-auto my-auto justify-content-center">
+    
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/ethereum_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>Ethereum</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <div class="col tech">
+                      <div class="d-flex justify-content-center">
+                        <div>
+                          <div class="d-flex justify-content-center mb-1">
+                            <img src="static/images/tech/solidity_logo.png" alt="">
+                          </div>
+                          <div class="d-flex justify-content-center">
+                            <h6>Solidity</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+  
+                <p>
+                  In my final academic year, I have undertaken a 
+                  <a href="https://github.com/solegga/blockchaincourse">
+                    Blockchains and Distributed Ledgers
+                  </a>
+                  course. 
+                  In the course, I have studied the core principles behind the technology, and its instantiations in the form of Bitcoin and Ethereum. 
+                  In practical terms, I have designed, implemented in Solidity, optimized for security, fairness and gas fees, deployed, and interacted with Ethereum smart contracts. 
+                  My final A1 (95%) grade in the course shall inform one about my
+                  <i>
+                    "Crypto"
+                  </i>
+                  concepts comprehension level. 
+                  Finally, inspired by the course I have implemented a distributed version of the game of chess, using the Ethereum smart contracts.
+                </p>
+
+                <hr>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="section content-3 skills justify-content-center d-flex">
+            <div class="section-inner" style="padding-bottom: 16px;">
+              <div class="d-grid gap-2 justify-content-center">
+                <button id="expandSkillsBtn" class="bg-transparent w-aut" data-bs-toggle="tooltip" data-bs-title="Show More" data-bs-trigger="hover" data-bs-placement="right">
+                  <span class="carousel-control-prev-icon up" aria-hidden="true"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
         </div>
 
-        <div class="p-4 content-4">
-          <div id="scrollspyHeading3">
+        <div class="section content-4 experience justify-content-center d-flex">
+          <div id="scrollspyHeading3" class="section-inner">
             <h1>
-              Doświadczenie
+              Experience
             </h1>
 
             <hr>
@@ -465,7 +770,7 @@
               <div class="org-title col d-flex align-items-center">
                 <div>
                   <h5 class="card-title">
-                    Programista
+                    Software Engineer
                   </h5>
                   <h6 class="card-subtitle">
                     Konsept App
@@ -477,6 +782,19 @@
               </div>
             </div>
 
+            <div class="desc-section">
+              <p>
+                Konsept by <a href="https://www.nagne.io/">Nagne Studios</a> start-up is a project aimed at delivering a web application that simplifies and automates the recurring parts of the product manager's (PM) job. 
+                As the project was early in development, I was directly involved in designing app features and detailing their implementation possibilities, given my machine learning background. 
+                To guide my design decisions and understand the PM's perspective I have taken the time to observe and investigate the work of Nagne Studio's PMs. 
+                A major feature of the Konsept App in the design of which I was involved concerned a recommender system. 
+                To create such a system, we had to build a database of items for recommendation. 
+                I have gathered such a dataset by implementing a custom web crawler and data parser. 
+                The next step concerned data annotation, and for this purpose, I have built a proprietary web application. 
+                Concerning my programming involvement, I have used Python, Flask, React, JavaScript and MongoDB during my work at Konsept.
+              </p>
+            </div>
+
             <hr>
 
             <div class="row">
@@ -486,7 +804,7 @@
               <div class="org-title col d-flex align-items-center">
                 <div>
                   <h5 class="card-title">
-                    Sprzedawca
+                    Shop Assistant
                   </h5>
                   <h6 class="card-subtitle">
                     Tartan Weaving Mill
@@ -498,6 +816,13 @@
               </div>
             </div>
 
+            <div class="desc-section">
+              <p>
+                <a href="https://www.thetartanweavingmill.co.uk/">Tartan Weaving Mill</a> is the largest souvenir shop in Edinburgh. 
+                In the shop, I was directly involved in customer service.
+              </p>
+            </div>
+
             <hr>
 
             <div class="row">
@@ -507,7 +832,7 @@
               <div class="org-title col d-flex align-items-center">
                 <div>
                   <h5 class="card-title">
-                    Stażysta Programista 
+                    Intern Software Engineer 
                   </h5>
                   <h6 class="card-subtitle">
                     Almar IT
@@ -519,25 +844,35 @@
               </div>
             </div>
 
+            <div class="desc-section">
+              <p>
+                <a href="https://www.almar.pl/">Almar IT</a> is a medium-sized company delivering CRM systems to petroleum distributing businesses. 
+                During my internship, I was introduced to the company's large code base. 
+                The involved technological stack primarily included Java, Spring Boot, Hibernate, PostgreSQL/Oracle database, JavaScript, and DataTables library. 
+                In order to contribute, I had to learn Spring Boot and JavaScript from scratch. 
+                Finally, I was involved in developing a feature of the main CRM product.
+              </p>
+            </div>
+
           </div>
         </div>
 
-        <div class="p-4 content-3 languages">
-          <div id="scrollspyHeading4">
+        <div class="section content-3 languages justify-content-center d-flex">
+          <div id="scrollspyHeading4" class="section-inner">
             <h1>
-              Języki
+              Languages
             </h1>
 
             <hr>
 
             <div class="row">
-              <div class="org col d-flex justify-content-center align-items-center">
-                <img src="static/images/pl_flag_2.png" class="org-img" alt="">
+              <div class="org col d-flex justify-content-center">
+                <img src="static/images/pl_flag.png" class="org-img" alt="">
               </div>
-              <div class="org-title col d-flex align-items-center">
+              <div class="org-title col d-flex">
                 <div>
-                  <h5 class="card-title mb-1">
-                    Polski
+                  <h5 class="card-title">
+                    Polish 
                   </h5>
                   <p>
                     I am a native speaker of the Polish language.
@@ -549,21 +884,17 @@
             <hr>
 
             <div class="row">
-              <div class="org col d-flex justify-content-center align-items-center">
-                <img src="static/images/en_flag_2.png" class="org-img" alt="">
+              <div class="org col d-flex justify-content-center">
+                <img src="static/images/en_flag.png" class="org-img" alt="">
               </div>
-              <div class="org-title col d-flex align-items-center">
+              <div class="org-title col d-flex">
                 <div>
-                  <h5 class="card-title mb-1">
-                    Angielski
+                  <h5 class="card-title">
+                    English
                   </h5>
                   <p>
                     Since high school, all of my education was undertaken in English.
-                  </p>
-                  <p>
                     I have lived, studied and worked in the UK for 5 years. 
-                  </p>
-                  <p>
                     My grade 6 in English B HL of the International Baccalaureate Diploma is a certificate of my English language proficiency at the B2+ level 
                     (<a href="https://www.ibo.org/news/news-about-the-ib/benchmarking-diploma-programme-language-courses-to-the-cefr/">reference</a>).
                   </p>
@@ -574,16 +905,16 @@
             <hr>
 
             <div class="row">
-              <div class="org col d-flex justify-content-center align-items-center">
-                <img src="static/images/de_flag_2.png" class="org-img" alt="">
+              <div class="org col d-flex justify-content-center">
+                <img src="static/images/de_flag.png" class="org-img" alt="">
               </div>
-              <div class="org-title col d-flex align-items-center">
+              <div class="org-title col d-flex">
                 <div>
-                  <h5 class="card-title mb-1">
-                    Niemiecki
+                  <h5 class="card-title">
+                    German
                   </h5>
                   <p>
-                    I have learned German for 4 years and hold a Goethe-Zertifikat A1: Fit in Deutsch 1.
+                    I have learned German for 4 years and hold a Goethe-Zertifikat A1.
                   </p>
                 </div>
               </div>
@@ -592,43 +923,87 @@
           </div>
         </div>
 
-        <div class="p-4 content-4">
-          <div id="scrollspyHeading5">
+        <div class="section content-4 projects justify-content-center d-flex">
+          <div id="scrollspyHeading5" class="section-inner">
             <h1>
-              Projekty
+              Projects
             </h1>
 
             <hr>
 
-            <h5>
+            <h2>
               Is RGB all you need? The usefulness of depth in semantic segmentation.
-            </h5>
+            </h2>
 
-            <hr>
-
-            <h5>
-              LoopixDES
-            </h5>
-
-            <hr>
-
-            <h5>
-              WebSweeper
-            </h5>
+            <p>
+              As part of the 
+              <a href="http://www.drps.ed.ac.uk/20-21/dpt/cxinfr11132.htm">
+                Machine Learning Practical
+              </a>
+              course, together with <a href="https://mkowalski.me/">Maciej Kowalski</a>, we have approached a 
+              <b>
+                Computer Vision (CV)
+              </b>
+              problem of utilising non-RGB data to improve the performance of existing classifiers. 
+              Specifically, we have attempted to outperform the RGB-only baseline model on the dataset of drone-captured aerial landscapes, by incorporating the also available per-pixel depth/elevation information recorded with the LIDAR sensors. 
+              The task concerned semantic segmentation, so assigning a label to each pixel of an image, to determine whether such a pixel is a part of a house, road, car or tree, etc.
+            </p>
+            <p></p>
+            <p>
+              We have investigated different ways of augmenting the existing ResNet backbone architecture to add depth information. 
+              We have also aimed to utilise the off-the-shelf pre-trained models rather than training new ones from scratch. 
+              A meaningful introduction of untrained data channels into already pre-trained architecture posed a grand challenge. 
+              In the project, we had to schedule our hyper-parameter tuning experiments on the available university GPU cluster. 
+              Additionally, one of the solutions required me to overwrite the existing convolution operation to make it <i>"depth-aware"</i>.
+              In the process I have implemented a custom PyTorch convolution module, using basic vectorized mathematical operations. 
+              The module is available on my <a href="https://github.com/mrybok/DConv">GitHub</a>.
+            </p>
+            <p></p>
+            <p>
+              The final project results can be found in the attached pdf report.
+            </p>
+            <a href="/cv/static/pdfs/MLP_Project.pdf">
+              <button type="button" class="btn btn-outline-danger">
+                <i class="bi bi-file-earmark-pdf"></i>
+                PDF
+              </button>
+            </a>
+            <a href="https://github.com/mrybok/DConv">
+              <button type="button" class="btn btn-outline-light">
+                <i class="bi bi-github"></i>
+                Code
+              </button>
+            </a>
 
           </div>
         </div>
 
-        <div class="p-4 content-3 d-block d-lg-none">
-          <h1>
-            Kontakt
-          </h1>
-
-          <hr>
-
-          <a class="email-link" href="#" data-bs-toggle="tooltip" data-bs-title="Kliknij żeby skopiować" data-bs-trigger="hover click" data-bs-placement="right">
-            marcinrybok@protonmail.com
-          </a>
+        <div class="section content-3 contact justify-content-center d-flex">
+          <div class="section-inner">
+            <h1>
+              Contact
+            </h1>
+  
+            <hr>
+  
+            <div class="row">
+              <a class="email-link row align-items-center" href="#" data-bs-toggle="tooltip" data-bs-title="Click to copy" data-bs-trigger="hover click" data-bs-placement="right">
+                <div class="col logo">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="col link">marcinrybok@protonmail.com</div>
+              </a>
+            </div>
+            <p></p>
+            <div class="row">
+              <a href="https://github.com/mrybok" class="row align-items-center">
+                <div class="col logo">
+                  <i class="bi bi-github"></i>
+                </div>
+                <div class="col link">github.com/mrybok</div>
+              </a>
+            </div>
+          </div>
         </div>
 
       </div>
