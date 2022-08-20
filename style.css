@@ -160,12 +160,21 @@ p a {
     text-align: center;
   }
 
+  .education .org-title p {
+    text-align: center!important;
+  }
+
   .languages .org {
     height: 57.4px;
   }
+  
+  .languages .org-title div {
+    min-width: 100%;
+  }
 
-  .org-title p {
-    text-align: center!important;
+  .languages .org-title p {
+    text-align: start!important;
+    min-width: 100%;
   }
 }
 
