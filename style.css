@@ -4,10 +4,6 @@ body {
   color: #f8f9fa;
 }
 
-hr {
-  border-color: #f8f9fa;
-}
-
 h1 {
   color: #A1D2FA;
   margin: 0px;
@@ -42,29 +38,12 @@ a {
   padding: 3px 2px;
 }
 
-.contact i {
-  font-size: 30px;
-}
-
-p a {
-  padding: 0px;
-}
-
 a:hover {
   color: #7DA5C8;
 }
 
-.btn {
-  margin: 8px 8px 10px 2px;
-  padding: 11px 22px;
-  font-size: 16px;
-  opacity: 0.75;
-  align-items: center;
-  border-radius: 4px;
-}
-
-button i {
-  font-size: 19px;
+p a {
+  padding: 0px;
 }
 
 /* Color Scheme */
@@ -128,26 +107,27 @@ button i {
   overflow-x: hidden;
 }
 
-#sideBar .list-group-item {
-  background-color: transparent;
-  color: #f8f9fa;
-}
-
-#sideBar a {
-  font-size: 14px;
-  padding: 3px 16px;
-}
-
 #sideBar .card {
   height: 100%;
   background-color: transparent;
   border: 0;
 }
 
+#sideBar .list-group-item {
+  background-color: transparent;
+  color: #f8f9fa;
+}
+
 #sideBar .card-footer {
   background-color: transparent;
   color: #f8f9fa;
   border: 0;
+}
+
+#sideBar a {
+  font-size: 14px;
+  padding: 3px 2px;
+  width: auto;
 }
 
 #body {
@@ -162,10 +142,6 @@ button i {
   min-width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-}
-
-.contact {
-  padding-bottom: 30vh;
 }
 
 @media (max-width: 600px) {
@@ -196,30 +172,32 @@ button i {
 @media (max-width: 1080px) {
   .section-inner {
     max-width: 740px;
+    min-width: min(100%, 740px);
     padding: 30px 16px 16px 16px;
+  }
+
+  .section.skills .section-inner {
+    padding: 0 16px;
   }
 
   p {
     text-align: start!important;
   }
-
-  .profile .section-inner, .interests .section-inner, .contact .section-inner {
-    width: 740px;
-  }
 }
 
 @media (min-width: 1080px) {
   .section-inner {
+    min-width: 1080px;
     max-width: 1080px;
     padding: 30px 186px 16px 186px;
   }
 
-  .about-me p {
-    font-size: 16px;
+  .section.skills .section-inner {
+    padding: 0 186px;
   }
 
-  .profile .section-inner, .interests .section-inner, .contact .section-inner {
-    width: 1080px;
+  .about-me p {
+    font-size: 16px;
   }
 
   .org {
@@ -234,52 +212,54 @@ button i {
 }
 
 @media (min-width: 1386px) {
+  #sideBar {
+    display: block;
+  }
+
   #content {
     width: calc(100% - 294px);
     max-width: calc(100% - 294px);
     min-width: calc(100% - 294px);
   }
 
-  .about-me {
-    background-color: #242C38!important;
-  }
-
   .section-inner {
+    min-width: 1092px;
     max-width: 1092px;
     padding: 30px 192px 16px 192px;
+  }
+
+  .section.skills .section-inner {
+    padding: 0 192px;
   }
 
   .profile, .interests, .contact {
     display: none!important;
   }
 
-  #sideBar {
-    display: block;
+  .about-me {
+    padding-top: 78px;
+    background-color: #242C38!important;
   }
 
   .projects {
     padding-bottom: 30vh;
   }
-
-  .about-me {
-    padding-top: 78px;
-  }
 }
 
 @media (max-width: 1920px) {
+  #sideBar {
+    width: 294px;
+    max-width: 294px;
+    min-width: 294px;
+  }
+
   #sideBar h5 {
     font-size: 16px;
   }
 
   #sideBar li {
     font-size: 14px;
-  }
-
-  #sideBar {
-    width: 294px;
-    max-width: 294px;
-    min-width: 294px;
-  }  
+  } 
 }
 
 @media (min-width: 1920px) {
@@ -386,6 +366,36 @@ button i {
   transition: transform 500ms linear;
 }
 
+.btn {
+  margin: 8px 8px 10px 2px;
+  padding: 11px 22px;
+  font-size: 16px;
+  opacity: 0.75;
+  align-items: center;
+  border-radius: 4px;
+}
+
+button i {
+  font-size: 19px;
+}
+
+.contact {
+  padding-bottom: 30vh;
+}
+
+.contact div.row {
+  margin: 0 12px;
+}
+
+.contact a.row {
+  padding: 0 2px;
+  width: auto;
+}
+
+.contact i {
+  font-size: 30px;
+}
+
 .logo {
   padding: 0; 
   width: 30px; 
@@ -396,15 +406,6 @@ button i {
 .link {
   margin-bottom: 3.6px;
   padding-right: 0;
-}
-
-.contact div.row {
-  margin: 0 12px;
-}
-
-.contact a.row {
-  padding: 0;
-  width: auto;
 }
 
 /* Scrollbar */
