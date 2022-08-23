@@ -58,19 +58,11 @@ emailLinks.forEach(emailLink => {
 
   emailLink.addEventListener('click', () => {
     if (navigator && navigator.clipboard && navigator.clipboard.writeText) {
-      if (document.querySelector('html').lang === 'en') {
-        emailTooltip.setContent({'.tooltip-inner': 'Copied!'})
-        setTimeout(() => {
-          emailTooltip.hide()
-          emailTooltip.setContent({'.tooltip-inner': 'Click to copy'})
-        }, 1500)
-      } else {
-        emailTooltip.setContent({'.tooltip-inner': 'Skopiowano!'})
-        setTimeout(() => {
-          emailTooltip.hide()
-          emailTooltip.setContent({'.tooltip-inner': 'Kliknij żeby skopiować'})
-        }, 1500)
-      }
+      emailTooltip.setContent({'.tooltip-inner': 'Copied!'})
+      setTimeout(() => {
+        emailTooltip.hide()
+        emailTooltip.setContent({'.tooltip-inner': 'Click to copy'})
+      }, 1500)
       return navigator.clipboard.writeText('marcinrybok@protonmail.com');
     }
   
