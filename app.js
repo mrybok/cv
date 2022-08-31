@@ -14,12 +14,12 @@ expandSkillsBtn.addEventListener('click', () => {
         collapseSkills.hide()
         arrow.classList.remove('down')
         arrow.classList.add('up')
-        skillsTooltip.setContent({'.tooltip-inner': 'Show More'})
+        skillsTooltip.setContent({'.tooltip-inner': 'Show more'})
     } else {
         collapseSkills.show()
         arrow.classList.remove('up')
         arrow.classList.add('down')
-        skillsTooltip.setContent({'.tooltip-inner': 'Show Less'})
+        skillsTooltip.setContent({'.tooltip-inner': 'Show less'})
     }
 })
 
